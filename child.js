@@ -1,17 +1,16 @@
 'use strict';
 
 import React from "react";
-import SVGMain from './svgmain'
 
-class Name extends React.Component{
+class Child extends React.Component{
 
     render(){
         return(
             <div>
-                <p>hello Name.</p>
+                <li>Child name: {this.props.name}</li>
             </div>
             );
     }
 }
 
-export default Name;
+export default Child;
