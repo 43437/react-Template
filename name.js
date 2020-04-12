@@ -3,6 +3,7 @@
 import React from "react";
 import SVGMain from './svgmain'
 
+debugger;
 class Name extends React.Component{
 
     render(){
